@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-inter);
+    font-size: 16px; /* Según tus propiedades de Figma */
+    line-height: 24px; /* Según tus propiedades de Figma */
+    
+  }
+}
+
+/* Define tus colores personalizados aquí para usarlos como clases */
+@theme {
+  --color-mashcole-blue: #008BE7;
+  --color-mashcole-dark: #204186;
+  --color-mashcole-yellow: #F5C142;
+}
